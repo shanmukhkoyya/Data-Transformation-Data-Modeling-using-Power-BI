@@ -72,6 +72,8 @@ The PBIX includes a model diagram, confirming that the project contains a dedica
 
 ## 📊 Business Analysis Structure
 
+A validated business analysis is documented in [Business Analysis](docs/Business_Analysis.md), using the prepared project dataset to calculate KPIs, category performance, target achievement, sub-category profitability, regional performance, and profit-status distribution.
+
 The prepared model is designed to support a reporting layer covering:
 
 ### KPI Analysis
@@ -144,7 +146,9 @@ Data-Transformation-Data-Modeling-using-Power-BI/
 │   └── data-model-architecture.svg
 │
 ├── docs/
-│   └── Data_Model_Documentation.md
+│   ├── Data_Model_Documentation.md
+│   ├── DATA_CLEANING_REPORT.md
+│   └── Business_Analysis.md
 │
 └── README.md
 ```
@@ -174,6 +178,7 @@ Open **Report view** to inspect the current report structure and extend the mode
 
 - [Data Model Documentation](docs/Data_Model_Documentation.md)
 - [Data Model Architecture](images/data-model-architecture.svg)
+- [Business Analysis & Validated Insights](docs/Business_Analysis.md)
 
 ---
 
