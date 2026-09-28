@@ -70,6 +70,12 @@ The PBIX includes a model diagram, confirming that the project contains a dedica
 
 ---
 
+## 📊 Portfolio Dashboard
+
+![E-Commerce Sales Dashboard](images/Business_Dashboard.svg)
+
+The dashboard view summarizes validated project-dataset KPIs, category performance, target achievement, sub-category profitability, and regional sales/profit.
+
 ## 📊 Business Analysis Structure
 
 A validated business analysis is documented in [Business Analysis](docs/Business_Analysis.md), using the prepared project dataset to calculate KPIs, category performance, target achievement, sub-category profitability, regional performance, and profit-status distribution.
