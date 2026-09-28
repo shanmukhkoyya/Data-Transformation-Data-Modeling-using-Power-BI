@@ -35,10 +35,11 @@ The cleaned data follows the assignment requirements:
 - List of Orders source rows: 560
 - List of Orders transformation scope: first 500 rows
 - Cleaned List of Orders rows: 500
-- Order Details rows: 1,500
+- Order Details source rows: 999
 - Sales Target rows: 36
-- Orders Data rows after merge: 1,500
-- Order IDs from the selected 500 orders were matched to Order Details.
+- Orders Data rows after merge: 999
+- Orders Data contains 343 unique Order IDs.
+- The selected 500 orders were matched to the Order Details data using Order ID.
 
 ## PBIX Protection
 
