@@ -106,7 +106,7 @@ The PBIX now contains a dedicated reporting page designed around common business
 
 ![E-Commerce Sales Dashboard](images/Business_Dashboard.svg)
 
-> The SVG above is a portfolio preview of the dashboard. The **PBIX contains the interactive report page**.
+> The SVG above is a portfolio preview of the planned reporting layout. The PBIX contains the underlying Power BI data-preparation and modeling work; the interactive dashboard visuals should be saved from Power BI Desktop before presenting the PBIX as a completed dashboard.
 
 ---
 
