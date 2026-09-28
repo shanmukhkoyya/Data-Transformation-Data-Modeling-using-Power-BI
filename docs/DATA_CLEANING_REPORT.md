@@ -41,8 +41,3 @@ The cleaned data follows the assignment requirements:
 - Orders Data contains 343 unique Order IDs.
 - The selected 500 orders were matched to the Order Details data using Order ID.
 
-## PBIX Protection
-
-The original Power BI project file is intentionally preserved. No changes were made to the existing PBIX file.
-
-The data package is provided separately so the source and transformed data can be reviewed without modifying the original Power BI project.
