@@ -1,143 +1,148 @@
-# 🔄 Data Transformation & Data Modeling using Power BI
+# 📊 Data Transformation & Data Modeling using Power BI
 
-A hands-on **Power BI Data Analytics project** focused on **data transformation, data preparation, data modeling, and business-ready reporting structure**.
+A hands-on **Power BI e-commerce sales analytics project** demonstrating an end-to-end workflow from raw business data through **Power Query transformation, data modeling, KPI reporting, target analysis, profitability analysis, and interactive dashboard development**.
 
-This project demonstrates an important part of a real-world analytics workflow: taking multiple business tables, preparing them for analysis, and organizing them into a model that can support meaningful reporting.
+> **Portfolio focus:** Data Analyst / BI Analyst skills in Power BI, Power Query, data modeling, business reporting, and analytical storytelling.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Project Highlights
 
-In a professional analytics environment, a dashboard is only as reliable as the data model behind it.
+**Raw Data → Power Query → Data Cleaning → Data Modeling → DAX/Analysis → Interactive Dashboard**
 
-This project focuses on the foundation of Power BI reporting:
+This project uses multiple sales-related tables to prepare a structured analytical model and turn it into a business-focused Power BI report.
 
-**Source Data → Power Query → Data Cleaning & Transformation → Data Model → Relationships → Business Analysis**
+### What this project demonstrates
 
-The PBIX contains a multi-table model built around **orders, order details, sales targets, categories, sub-categories, monthly targets, and aggregated analysis tables**.
+- Multi-source data preparation
+- Power Query cleaning and transformation
+- Order and order-detail data integration
+- Analytical summary tables
+- Power BI data modeling and relationships
+- KPI reporting
+- Sales target analysis
+- Profitability analysis
+- Interactive filtering
+- Business-focused dashboard design
 
 ---
 
 ## 🎯 Business Objective
 
-The project is designed to prepare a sales dataset for business reporting and help answer questions such as:
+The project is designed to support questions such as:
 
-- How are sales performing over time?
-- How can sales be compared with monthly targets?
-- Which categories contribute to sales and profit?
-- Which sub-categories require closer analysis?
-- How can order-level and order-detail data be structured for reporting?
-- How should supporting summary tables be organized for efficient analysis?
+- How much revenue was generated?
+- What is the overall profit and margin?
+- How are categories performing?
+- How close are categories to their sales targets?
+- Which sub-categories generate losses or profits?
+- Which states contribute the most sales?
+- How is the business split between Profit, Loss, and Break-Even orders?
 
 ---
 
-## 🧹 Data Transformation
+## 🧹 Data Transformation with Power Query
 
-The project demonstrates the data-preparation stage required before visualization.
+The data-preparation layer includes:
 
-### Key areas
-
-- Data loading into Power BI
-- Data preparation using Power Query
-- Data transformation
-- Data organization
-- Aggregation and summary-table preparation
-- Preparing data for analytical relationships
-- Structuring business data for reporting
+- Loading the source CSV files into Power BI
+- Selecting the required order records
+- Standardizing data types
+- Cleaning and preparing customer fields
+- Creating **Location = City, State**
+- Creating **Profit Margin = Profit / Amount**
+- Creating **Profit Status = Loss / Break-Even / Profit**
+- Merging order-level and order-detail information using **Order ID**
+- Preparing supporting aggregated tables for analysis
 
 ---
 
 ## 🧩 Data Model
 
-The PBIX contains **8 verified tables**:
+The PBIX contains **8 analytical tables**:
 
-| Table | Analytical Purpose |
+| Table | Purpose |
 |---|---|
 | `List of Orders` | Order-level business data |
 | `Order Details (1)` | Detailed order-line information |
 | `Sales target (1)` | Sales target reference data |
 | `Orders Data` | Prepared order dataset |
 | `Monthly Sales Target` | Monthly target analysis |
-| `Category Average Profit` | Category-level profit reference |
-| `Order Details Summary` | Aggregated order-detail structure |
+| `Category Average Profit` | Category-level profit analysis |
+| `Order Details Summary` | Order-detail aggregation |
 | `Sub-Category Total Amount` | Sub-category aggregation |
 
 ### Model Architecture
 
 ![Data Model Structure](images/data-model-architecture.svg)
 
-The PBIX includes a model diagram, confirming that the project contains a dedicated **data-modeling layer**.
-
 ---
 
-## 📊 Portfolio Dashboard
+## 📊 Interactive Portfolio Dashboard
+
+The PBIX now contains a dedicated reporting page designed around common business-analysis questions.
+
+### Dashboard sections
+
+**KPI Cards**
+- Total Sales
+- Total Profit
+- Profit Margin
+- Total Quantity
+- Unique Orders
+
+**Business Visuals**
+- Category Performance
+- Sales Target Achievement
+- Sub-Category Profitability
+- Regional Sales & Profit
+- Profit Status
+
+**Interactive Filters**
+- Category
+- State
+
+### Dashboard Preview
 
 ![E-Commerce Sales Dashboard](images/Business_Dashboard.svg)
 
-The dashboard view summarizes validated project-dataset KPIs, category performance, target achievement, sub-category profitability, and regional sales/profit.
+> The SVG above is a portfolio preview of the dashboard. The **PBIX contains the interactive report page**.
 
-## 📊 Business Analysis Structure
+---
 
-A validated business analysis is documented in [Business Analysis](docs/Business_Analysis.md), using the prepared project dataset to calculate KPIs, category performance, target achievement, sub-category profitability, regional performance, and profit-status distribution.
+## 📈 Validated Project Results
 
-The prepared model is designed to support a reporting layer covering:
+Using the prepared project dataset:
 
-### KPI Analysis
-- Total Sales
-- Total Profit
-- Total Orders
-- Profit Margin
-- Sales Target Achievement
+| KPI | Result |
+|---|---:|
+| Total Sales | 283,497 |
+| Total Profit | -444 |
+| Profit Margin | -0.16% |
+| Unique Orders | 343 |
+| Quantity | 3,734 |
 
-### Trend Analysis
-- Monthly Sales Trend
-- Monthly Target Comparison
+### Category Performance
 
-### Category Analysis
-- Sales by Category
-- Profit by Category
-- Category-level performance
+| Category | Sales | Profit | Target Achievement |
+|---|---:|---:|---:|
+| Electronics | 108,430 | 682 | 84.05% |
+| Clothing | 96,641 | 2,387 | 55.54% |
+| Furniture | 78,426 | -3,513 | 59.01% |
 
-### Sub-Category Analysis
-- Sales by Sub-Category
-- Profit contribution
-- Sub-category performance comparison
+### Profit Status
 
-### Interactive Analysis
-- Date/Month filtering
-- Category filtering
-- Sub-category filtering
-- Business-level drill-down analysis
+- **Profit:** 513
+- **Loss:** 452
+- **Break-Even:** 34
 
-> **Note:** These are the analytical areas the verified model is structured to support. The current PBIX report page does not contain completed report visuals, so this repository does not claim dashboard results that are not actually present.
+Detailed calculations and business observations are documented in [Business Analysis](docs/Business_Analysis.md).
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Power BI**
-- **Power Query**
-- **Data Transformation**
-- **Data Cleaning & Preparation**
-- **Data Modeling**
-- **Table Relationships**
-- **Aggregation**
-- **Business Intelligence Reporting**
-
----
-
-## 💡 What I Learned
-
-Through this project, I practiced:
-
-- Preparing business data for analysis
-- Transforming data with Power Query
-- Working with multiple related tables
-- Designing a structured analytical model
-- Creating supporting summary tables
-- Preparing sales and target data for comparison
-- Thinking from a business-question perspective before building visuals
-- Understanding how data modeling supports Power BI reporting
+**Power BI Desktop** • **Power Query** • **DAX** • **Data Modeling** • **Data Cleaning** • **Data Transformation** • **Business Intelligence**
 
 ---
 
@@ -146,9 +151,21 @@ Through this project, I practiced:
 ```text
 Data-Transformation-Data-Modeling-using-Power-BI/
 │
-├── Data Transformation & Data Modeling using power BI.pbix
+├── Data Transformation & Data Modeling using Power BI.pbix
+│
+├── raw-data/
+│   ├── List_of_Orders.csv
+│   ├── Order_Details.csv
+│   └── Sales_Target.csv
+│
+├── cleaned-data/
+│   ├── Cleaned_List_of_Orders.csv
+│   ├── Cleaned_Order_Details.csv
+│   ├── Cleaned_Sales_Target.csv
+│   └── Orders_Data.csv
 │
 ├── images/
+│   ├── Business_Dashboard.svg
 │   └── data-model-architecture.svg
 │
 ├── docs/
@@ -161,77 +178,74 @@ Data-Transformation-Data-Modeling-using-Power-BI/
 
 ---
 
-## 🚀 How to Explore the Project
+## 🔍 How to Explore
 
-### Step 1 — Download
-Download the PBIX file from this repository.
+### 1. Download the PBIX
 
-### Step 2 — Open
-Open the file using **Microsoft Power BI Desktop**.
+Download **Data Transformation & Data Modeling using Power BI.pbix**.
 
-### Step 3 — Review Data Preparation
-Open **Transform Data** to review the Power Query/data-preparation layer.
+### 2. Open in Power BI Desktop
 
-### Step 4 — Review the Model
-Open **Model view** and inspect the available tables and relationships.
+Open the PBIX in Power BI Desktop.
 
-### Step 5 — Review the Reporting Layer
-Open **Report view** to inspect the current report structure and extend the model into business-focused visuals.
+### 3. Review the transformation layer
+
+Open **Transform Data** to inspect the Power Query preparation steps.
+
+### 4. Review the model
+
+Open **Model view** to inspect the tables and relationships.
+
+### 5. Review the dashboard
+
+Open **Report view** to interact with the KPI cards, charts, and slicers.
 
 ---
 
 ## 📚 Documentation
 
 - [Data Model Documentation](docs/Data_Model_Documentation.md)
-- [Data Model Architecture](images/data-model-architecture.svg)
+- [Data Cleaning & Transformation Report](docs/DATA_CLEANING_REPORT.md)
 - [Business Analysis & Validated Insights](docs/Business_Analysis.md)
+- [Data Model Architecture](images/data-model-architecture.svg)
 
 ---
 
-## ⚠️ Scope & Limitations
+## 🎓 Skills Demonstrated
 
-This repository documents the **verified contents of the current PBIX**.
+This project demonstrates practical experience in:
 
-The model and analytical direction are documented based on the project file. Numerical KPI results, relationship cardinalities, and dashboard findings are intentionally not presented unless they are verified from the source PBIX.
-
-The current report page is not yet a completed dashboard. The next development stage is to build the visual reporting layer from the prepared model.
-
----
-
-## 🔮 Future Enhancements
-
-Planned improvements include:
-
-- Build a professional executive dashboard
-- Add KPI cards and business-focused visuals
-- Add monthly sales vs target analysis
-- Add category and sub-category performance visuals
-- Add interactive slicers and navigation
-- Improve dashboard usability and visual storytelling
-- Add validated business insights and recommendations
-- Extend the project with Python-based exploratory analysis
+- Power Query
+- Data cleaning
+- Data transformation
+- Data merging
+- Data modeling
+- KPI design
+- Sales target analysis
+- Profitability analysis
+- Data visualization
+- Business reporting
+- Analytical storytelling
 
 ---
 
-## ⭐ Portfolio Value
+## 📌 Portfolio Value
 
-This project is part of my hands-on **Data Analytics portfolio** and demonstrates the foundation behind professional Power BI reporting.
+This repository demonstrates the **data-preparation and reporting foundation of a Data Analyst workflow**.
 
-It complements projects focused on:
+It can be reviewed alongside my other projects covering:
 
-- End-to-end dashboard development
-- SQL business analysis
-- Power BI & DAX analysis
-- Data transformation and data modeling
-
-Together, these projects demonstrate my learning across different stages of the **Data Analyst workflow**.
+- Dashboard development
+- SQL analysis
+- Business analysis
+- Power BI & DAX
+- Data transformation and modeling
 
 ---
 
 ## 👤 About Me
 
-**Shanmukh Koyya**
-
+**Shanmukh Koyya**  
 Aspiring Data Analyst | Power BI | SQL | Excel | Python
 
 📧 **Email:** [shanmukhkoyya1234@gmail.com](mailto:shanmukhkoyya1234@gmail.com)
@@ -242,4 +256,4 @@ Aspiring Data Analyst | Power BI | SQL | Excel | Python
 
 ---
 
-⭐ If you find this project useful, feel free to explore the repository and my other Data Analytics projects.
+⭐ Explore the repository to review the **data, transformation logic, model structure, documentation, and interactive Power BI dashboard**.
