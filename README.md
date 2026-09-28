@@ -1,19 +1,36 @@
 # 🔄 Data Transformation & Data Modeling using Power BI
 
-A focused **Power BI project** demonstrating a data-analytics workflow centered on **data transformation and data modeling**.
+A focused **Power BI portfolio project** demonstrating the data-preparation and modeling stages of a business analytics workflow.
 
 ## 🎯 Project Focus
 
-This project is designed to demonstrate the Power BI workflow from prepared source data through transformation and modeling to a report-ready analytical structure.
-
-### Core Areas
+This project is centered on the work that happens before a polished dashboard:
 
 - Data transformation
 - Data cleaning and preparation
 - Power Query workflow
 - Data modeling
-- Relationships between data
-- Power BI reporting workflow
+- Relationship-based analysis
+- Report-ready analytical structure
+
+## 🧩 Verified PBIX Model
+
+The uploaded PBIX contains **8 tables**:
+
+| Table | Purpose in the project |
+|---|---|
+| `List of Orders` | Order-level source structure |
+| `Order Details (1)` | Detailed order-line data |
+| `Sales target (1)` | Sales target reference |
+| `Orders Data` | Prepared order dataset |
+| `Monthly Sales Target` | Monthly target analysis |
+| `Category Average Profit` | Category-level profit reference |
+| `Order Details Summary` | Aggregated order-detail structure |
+| `Sub-Category Total Amount` | Sub-category aggregation |
+
+![Data Model Structure](images/data-model-architecture.svg)
+
+> **Scope note:** The table list and model presence are verified from the PBIX. Relationship cardinalities and numerical business findings are not claimed here unless directly verified.
 
 ## 🛠️ Tools & Technologies
 
@@ -27,28 +44,45 @@ This project is designed to demonstrate the Power BI workflow from prepared sour
 
 | File | Description |
 |---|---|
-| `Data Transformation & Data Modeling using power BI.pbix` | Power BI report/project file |
+| `Data Transformation & Data Modeling using power BI.pbix` | Power BI project file |
+
+## 📊 Intended Reporting Layer
+
+The model is structured to support:
+
+- Sales KPI reporting
+- Profit analysis
+- Monthly sales trends
+- Category and sub-category analysis
+- Actual sales vs target
+- Interactive business filters
 
 ## 🚀 How to Use
 
 1. Download the PBIX file.
 2. Open it with **Power BI Desktop**.
-3. Review the Power Query transformations.
-4. Inspect the data model and relationships.
-5. Explore the Power BI report.
+3. Review the Power Query/data-preparation layer.
+4. Inspect the model and relationships.
+5. Review or extend the report layer using the documented analytical structure.
 
 ## 🧠 Skills Demonstrated
 
 - Power Query
-- Data preparation
-- Data transformation
+- Data cleaning and transformation
 - Data modeling
 - Relationship-based analysis
-- Power BI report development
+- Aggregation
+- Business reporting structure
+- Power BI development
 
-## 📌 Portfolio Note
+## 📚 Documentation
 
-This repository focuses specifically on the **transformation and modeling stage of the analytics workflow**, complementing larger end-to-end dashboard projects in my portfolio.
+- [Data Model Documentation](docs/Data_Model_Documentation.md)
+- [Data Model Structure](images/data-model-architecture.svg)
+
+## 📌 Portfolio Position
+
+This project complements my other analytics projects by focusing specifically on **data transformation and data modeling**, two core stages of a professional BI workflow.
 
 ## 👤 Author
 
