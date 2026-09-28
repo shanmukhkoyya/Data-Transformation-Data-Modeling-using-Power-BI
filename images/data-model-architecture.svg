@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" fill="#f7f8fa"/>
+<text x="60" y="65" font-family="Arial" font-size="32" font-weight="700" fill="#1f2937">Power BI Data Model — Project Structure</text>
+<text x="60" y="98" font-family="Arial" font-size="17" fill="#6b7280">Verified tables present in the uploaded PBIX</text>
+<g font-family="Arial" font-size="16">
+<rect x="70" y="150" width="270" height="130" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="90" y="185" font-weight="700">List of Orders</text><text x="90" y="215" fill="#4b5563">Order-level source data</text><text x="90" y="242" fill="#4b5563">Core analytical entity</text>
+<rect x="465" y="150" width="270" height="130" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="485" y="185" font-weight="700">Order Details</text><text x="485" y="215" fill="#4b5563">Order line-level data</text><text x="485" y="242" fill="#4b5563">Detailed sales structure</text>
+<rect x="860" y="150" width="270" height="130" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="880" y="185" font-weight="700">Sales target (1)</text><text x="880" y="215" fill="#4b5563">Target reference table</text><text x="880" y="242" fill="#4b5563">Target comparison</text>
+<rect x="70" y="365" width="270" height="130" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="90" y="400" font-weight="700">Monthly Sales Target</text><text x="90" y="430" fill="#4b5563">Monthly target structure</text><text x="90" y="457" fill="#4b5563">Performance benchmarking</text>
+<rect x="465" y="365" width="270" height="130" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="485" y="400" font-weight="700">Category Average Profit</text><text x="485" y="430" fill="#4b5563">Category-level reference</text><text x="485" y="457" fill="#4b5563">Profit comparison</text>
+<rect x="860" y="365" width="270" height="130" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="880" y="400" font-weight="700">Order Details Summary</text><text x="880" y="430" fill="#4b5563">Aggregated order details</text><text x="880" y="457" fill="#4b5563">Summary analysis</text>
+<rect x="265" y="565" width="270" height="110" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="285" y="600" font-weight="700">Orders Data</text><text x="285" y="630" fill="#4b5563">Prepared order dataset</text>
+<rect x="665" y="565" width="270" height="110" rx="12" fill="white" stroke="#374151" stroke-width="2"/><text x="685" y="600" font-weight="700">Sub-Category Total Amount</text><text x="685" y="630" fill="#4b5563">Sub-category aggregation</text>
+</g>
+<g stroke="#9ca3af" stroke-width="2" fill="none">
+<path d="M340 215 H465"/><path d="M735 215 H860"/><path d="M205 280 V365"/><path d="M600 280 V365"/><path d="M995 280 V365"/><path d="M340 430 H465"/><path d="M735 430 H860"/><path d="M405 495 V565"/><path d="M795 495 V565"/>
+</g>
+<text x="60" y="705" font-family="Arial" font-size="14" fill="#6b7280">Note: This graphic documents table presence and project structure; it does not infer undocumented relationship cardinalities.</text>
+</svg>
