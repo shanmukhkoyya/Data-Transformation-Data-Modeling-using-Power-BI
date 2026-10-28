@@ -25,6 +25,12 @@ The repository documents eight analytical tables covering orders, order details,
 
 See [Data Model Documentation](docs/Data_Model_Documentation.md) for details.
 
+## Dashboard preview
+
+![E-commerce sales dashboard layout preview](images/Business_Dashboard.svg)
+
+*This is a static SVG layout preview created for project presentation. It is not a screenshot captured from Power BI Desktop, and its figures should be checked against the opened PBIX and source data before being used for decisions.*
+
 ## Selected results
 The repository's documented analysis reports these results from the prepared dataset.
 
