@@ -73,7 +73,6 @@ These are project-data results and depend on the model and measure definitions u
 - Results reflect the supplied project data and the model definitions.
 - Descriptive results do not establish causal explanations for profit outcomes.
 - Confirm source data and measure definitions before using the figures for a business decision.
-- The dashboard SVG is a preview layout and should not be presented as proof of the final interactive report's appearance.
 
 ## Author
 **Shanmukh Koyya** · [GitHub](https://github.com/shanmukhkoyya) · [LinkedIn](https://www.linkedin.com/in/shanmukh-koyya/) · [Email](mailto:shanmukhkoyya1234@gmail.com)
