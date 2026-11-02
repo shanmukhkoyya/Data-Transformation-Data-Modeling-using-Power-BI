@@ -4,7 +4,7 @@
 ```mermaid
 flowchart LR
  subgraph INPUTS[Source layer]
- O[Orders] 
+ O[Orders]
  D[Order Details]
  T[Sales Targets]
  end
@@ -29,13 +29,13 @@ flowchart LR
 <table><tr><td><b>💰 SALES</b><br/>How much was sold?</td><td><b>📈 PROFIT</b><br/>Where is profit generated?</td></tr><tr><td><b>％ MARGIN</b><br/>How profitable are sales?</td><td><b>🎯 TARGET</b><br/>How does actual compare?</td></tr></table>
 
 ## Model illustration
-![Project overview](images/project-overview.svg)
+![Data model architecture](images/data-model-architecture.svg)
 
 ## Repository components
-- [Power BI report](Data%20Transformation%20%26%20Data%20Modeling.pbix)
-- [Raw data folder](Raw%20Data/)
-- [Cleaned data folder](Cleaned%20Data/)
-- [Documentation](Documentation/)
+- [Power BI report](Data%20Transformation%20%26%20Data%20Modeling%20using%20Power%20BI.pbix)
+- [Raw data folder](raw-data/)
+- [Cleaned data folder](cleaned-data/)
+- [Documentation folder](docs/)
 
 ## Model review gates
 - [ ] Reconcile source and transformed row counts.
