@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/readme-hero.svg" alt="SALES DATA ARCHITECTURE — POWER QUERY → MODEL → DAX → REPORT" width="100%"/></p>
+
 # 🏗️ SALES ANALYTICS — DATA ARCHITECTURE
 
 <p align="center"><img src="https://img.shields.io/badge/SOURCES-03-315B75?style=for-the-badge"/> <img src="https://img.shields.io/badge/MODEL%20TABLES-08-1A8A77?style=for-the-badge"/> <img src="https://img.shields.io/badge/OUTPUT-PBIX-D9A900?style=for-the-badge"/></p>
