@@ -37,6 +37,17 @@ flowchart LR
 - [Cleaned data folder](cleaned-data/)
 - [Documentation folder](docs/)
 
+## Business recommendations
+
+The documented analysis covers 999 order-detail rows and 343 unique orders from the selected project data. It reports total profit of **-444** and an overall margin of **-0.16%**. Furniture shows a **-3,513** category profit, while Tables shows a **-4,640** sub-category profit and Saree has high sales alongside a loss. These figures are project-dataset results, not current company performance.
+
+1. **Investigate loss-making products first.** Review the cost, discount, freight, return and pricing components behind Tables, Furniture and Saree before recommending price or assortment changes.
+2. **Separate sales growth from profitable growth.** Review sales, absolute profit and margin together. High revenue alone should not be treated as strong performance when the related margin is negative.
+3. **Prioritise category follow-up.** Electronics is closest to its supplied target at 84.05%, while Clothing has the strongest category margin at 2.47%. Review target gaps alongside profitability rather than setting one uniform action for every category.
+4. **Use drill-downs before acting.** Compare category, sub-category, state and month, then verify unusual results against source rows and the Power BI measures.
+
+**Before a business decision:** reconcile the DAX measures, relationship behaviour and target-period alignment in the PBIX. The dataset uses a selected source scope and does not represent a live company; recommendations are analytical follow-ups, not proof of savings or causes. See [Business Analysis](docs/Business_Analysis.md) for the detailed figures.
+
 ## Model review gates
 - [ ] Reconcile source and transformed row counts.
 - [ ] Validate relationship cardinality and direction.
